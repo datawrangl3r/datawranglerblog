@@ -1,4 +1,4 @@
-baseURL = "datawrangl3r.github.io"
+baseURL = "https://datawrangl3r.github.io/"
 languageCode = "en-us"
 publishDir = "docs"
 title = "DATAWRANGLER"
