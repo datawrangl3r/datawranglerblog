@@ -28,7 +28,7 @@ ETL Strategies & Pipelines have now become inevitable for cloud business needs. 
 
 We will be explaining the ETL strategies, alphabetically as shown in the illustration below:
 
-![Fig1: ETL Alphabets](../../images/post/11-etl-enterprise-level-practices/img1.jpg)
+![Fig1: ETL Alphabets](../../images/post/11-etl-enterprise-level-practices/img1.jpeg)
 
 **Archival Strategies**
 
