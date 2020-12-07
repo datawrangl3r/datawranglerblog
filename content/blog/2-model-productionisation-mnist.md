@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2017/07/model-productionisation-mnist.html" ]
 
 # post thumb
-image: "images/featured-post/post1.jpg"
+image: "images/featured-post/post2.jpg"
 
 # meta description
 description: "Demonstration of typical MNIST Handwritten Digits Prediction using Python and to productionize using Flask Microframework"
