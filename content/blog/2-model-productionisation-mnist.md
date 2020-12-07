@@ -69,7 +69,7 @@ Let's evaluate the model with the image - `numba7.jpg`.
 
 You may have noticed the response to be as 7, correctly predicted by the model as a response.
 
-![Fig4: All Righty Then](../../images/post/2-model-productionisation-mnist/img4.gif)
+![Fig4: All Righty Then](../../images/post/2-model-productionisation-mnist/img4.jpg)
  
 Let's try out the image: `numba9.jpg`.
 
@@ -79,7 +79,7 @@ Let's try out the image: `numba9.jpg`.
 
 The response is received as number 5, which is weird for input as 9.
 
-![Fig6: Uh oh.!](../../images/post/2-model-productionisation-mnist/img6.gif)
+![Fig6: Uh oh.!](../../images/post/2-model-productionisation-mnist/img6.jpg)
 
 The prediction is wrong. However, Five does look a lot like 9 to the human eyes. 
 
