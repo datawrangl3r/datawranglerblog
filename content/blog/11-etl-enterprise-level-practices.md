@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2020/12/etl-enterprise-level-practices.html" ]
 
 # post thumb
-image: "images/featured-post/post11.jpg"
+image: "images/featured-post/post9.jpg"
 
 # meta description
 description: "Aspects and characteristics of Enterprise-level practices that can be followed to make a robust data pipeline"
@@ -28,7 +28,7 @@ ETL Strategies & Pipelines have now become inevitable for cloud business needs. 
 
 We will be explaining the ETL strategies, alphabetically as shown in the illustration below:
 
-![Fig1: ETL Alphabets](../../images/post/11-etl-enterprise-level-practices/img1.jpeg)
+![Fig1: ETL Alphabets](../../images/post/9-postgres-optimization-beyond-level-up/img1.jpeg)
 
 **Archival Strategies**
 
