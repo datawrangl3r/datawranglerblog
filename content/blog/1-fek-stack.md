@@ -3,8 +3,6 @@ title: 'ELK Stack Alternative - FEK Stack'
 date: 2017-06-15T11:14:00.001-07:00
 draft: false
 aliases: [ "/2017/06/elk-stack-not.html" ]
-categories:
-  - "Elasticsearch"
 
 # post thumb
 image: "images/featured-post/post1.jpg"
@@ -16,11 +14,11 @@ description: "Demonstration of the capabilities of FEK Stack, equivalent to the 
 categories:
   - "Elasticsearch"
 tags:
-  - "elasticsearch"
-  - "fluentd"
+  - "Elasticsearch"
+  - "Fluentd"
   - "ELK"
-  - "logstash"
-  - "kibana"
+  - "Logstash"
+  - "Kibana"
 
 # post type
 type: "featured"

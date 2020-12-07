@@ -7,7 +7,7 @@ draft: false
 image: "images/author.jpg"
 
 # meta description
-description: "this is meta description"
+description: "Summary about the author"
 
 # type
 type : "about"
