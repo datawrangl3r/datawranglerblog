@@ -20,10 +20,8 @@ tags:
   - "Prediction"
 
 # post type
-type: "featured"
+type: "post"
 ---
-
-## Introduction
 
 Building ML models have become child's play in recent days. With the advent of machine learning frameworks such as `tensorflow`, `pytorch` and `scikit-learn`, the ability to build a machine learning model has been brought down from days to minutes. In this article, we will be demonstrating how to productionize ML models using Python-based micro web framework `Flask`.
 
