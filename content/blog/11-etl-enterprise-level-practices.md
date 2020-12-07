@@ -10,8 +10,16 @@ image: "images/featured-post/post11.jpg"
 # meta description
 description: "Aspects and characteristics of Enterprise-level practices that can be followed to make a robust data pipeline"
 
+categories:
+  - "ETL"
 
-tags : [cluster, Mysql, postgres, Airflow, CDC, python, productionisation, ETL]
+tags:
+  - "ETL"
+  - "ADF"
+  - "Databases"
+
+# post type
+type: "featured"
 ---
 
 ETL Strategies & Pipelines have now become inevitable for cloud business needs. There are several ETL tools in the market ranging from open-source ones such as _Airflow, Luigi, Azkaban, Oozie_ to enterprise solutions such as _Azure Data Factory, AWS Glue, Alteryx, Fivetran_, etc. But what makes the data pipelines to be Industry-ready and robust? The practices and the industrial standards that are put into the architecture and design of the pipelines do. In this article, we touch upon these aspects and characteristics of Enterprise-level practices that can be followed to make a robust data pipeline. 
