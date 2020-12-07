@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2020/12/etl-enterprise-level-practices.html" ]
 
 # post thumb
-image: "images/featured-post/post9.jpg"
+image: "images/featured-post/post11.jpg"
 
 # meta description
 description: "Aspects and characteristics of Enterprise-level practices that can be followed to make a robust data pipeline"
