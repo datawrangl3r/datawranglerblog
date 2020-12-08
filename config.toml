@@ -8,7 +8,7 @@ paginate = 6
 disqusShortname = ""
 
 # Google Analytics
-googleAnalitycsID = "G-FE9HN6WQ2F"
+googleAnalitycsID = "UA-FE9HN6WQ2F"
 googleAnalytics = "G-FE9HN6WQ2F"
 
 [outputs]
