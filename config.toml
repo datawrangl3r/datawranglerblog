@@ -7,6 +7,9 @@ summaryLength = "10"
 paginate = 6
 disqusShortname = ""
 
+# Google Analytics
+googleAnalitycsID = "G-FE9HN6WQ2F"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -83,8 +86,6 @@ home = "Home"
 # Meta data
 description = "This is meta description"
 author = "Sathiya Sarathi"
-# Google Analytics
-googleAnalitycsID = "Your ID"
 # Contact Information
 mobile = "8807721274"
 email = "sathyasarathi90@gmail.com"
