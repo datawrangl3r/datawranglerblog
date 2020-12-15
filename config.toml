@@ -6,6 +6,7 @@ theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
 disqusShortname = "httpswwwdatawranglerin"
+enableEmoji = true
 
 # Google Analytics
 googleAnalitycsID = "UA-FE9HN6WQ2F"

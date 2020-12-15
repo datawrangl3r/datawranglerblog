@@ -21,7 +21,7 @@ tags:
   - "Kibana"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 The ELK (Elasticsearch, LogStash, and Kibana) stack can be quite handy in log processing and monitoring. However, there are some of the formidable pre-requisites such as, having a node dedicated to host LogStash. But, not everyone can afford to host their very own log processing instance. This is where, FEK (Fluentd, Elasticsearch, and Kibana) stack can help.  

@@ -13,7 +13,7 @@ tags:
   - "Migration"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 **Flyway** - by Boxfuse: This is a **schema migration tool** and it acts as a version control system for relational databases.  
