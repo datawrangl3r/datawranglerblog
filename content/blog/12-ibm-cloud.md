@@ -1,5 +1,5 @@
 ---
-title: 'DB2 & Cognos - From Spreadsheets to Cloud Hosted Dashboards Under 30 Minutes'
+title: 'IBM Cloud - From Spreadsheets to Cloud Hosted Dashboards Under 30 Minutes'
 date: 2020-12-10T12:01:00.001-08:00
 draft: false
 
