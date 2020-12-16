@@ -7,7 +7,7 @@ draft: false
 image: "images/featured-post/post12.jpg"
 
 # meta description
-description: "blah blah"
+description: "This article aims to demonstrate how the IBM Cloud Services can be easily used to convert a boring and simple spreadsheet to a mighty enterprise-ready BI dashboard with scalable visualizations across an organization, under 30 minutes for free."
 
 categories:
   - "Databases"
