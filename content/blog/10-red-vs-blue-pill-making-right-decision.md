@@ -41,7 +41,7 @@ If one wishes to compare it with other market leaders, there isn't any honest co
 | Scale | Dependent on the licenses purchased and Infrastructure | Dependent on the dedicated capacity |
 | Pricing | See Below | See Below |
 
-### Choice of the Cloud & Databases:
+### Choice of the Cloud & Databases
 
 Are you a customer of the Microsoft family of suites or Azure Cloud? Are you using Microsoft SQL Server databases or Azure Synaptics SQL pools? 
 
@@ -53,7 +53,7 @@ Tableau also provides access to many data connectors and drivers to establish co
 
 ![Fig2: The choices](../../images/post/10-red-vs-blue-pill-making-right-decision/img2.gif)
 
-### Data Extracts & Refreshes:
+### Data Extracts & Refreshes
 
 > How huge is your data? And are you using extracts or live connections?
 
@@ -63,7 +63,7 @@ Power BI also performs the heavy data refreshes with much ease, due to the confi
 
 ![Fig3: Data Refreshes](../../images/post/10-red-vs-blue-pill-making-right-decision/img3.gif)
 
-### Visualization Renders:
+### Visualization Renders
 
 Visualization is the core of the BI exercise. And if those dashboards are not loading on time, that will cost precious business hours. The rendering is dependent on the hardware - especially the memory. In Tableau, the hardware and tuning parameters are completely at the disposal of the tableau Admin. However, the server might have to be restarted while performing the upgrades to the hardware or tuning the parameters. This could also potentially lead to downtime.
 
@@ -71,7 +71,7 @@ This is not the case with Power BI where a premium or dedicated capacity can be 
   
 ![Fig4: Visualization Renders](../../images/post/10-red-vs-blue-pill-making-right-decision/img4.gif)
 
-### Scale:
+### Scale
 
 How many viewers are about to have a look at your dashboards? Is it going to be the dashboard with your visualizations on it or is it going to be just the PDF rendering of your dashes?  
   
@@ -81,7 +81,7 @@ Does it mean that Power BI is up for no good? No. They do have a dedicated capac
   
 ![Fig5: Scale](../../images/post/10-red-vs-blue-pill-making-right-decision/img5.gif)
 
-### Licenses & Pricing:
+### Licenses & Pricing
 
 Consider an Organization with about 200 data scientists and 100 business users; let's estimate the pricing for both Tableau Server & Power BI Embedded.  
   
@@ -109,7 +109,7 @@ The following estimation is done by assuming that the dedicated capacity is A4 (
   
 ### Conclusion
 
-Designing a Business Analytics architecture for the organization, needs a futuristic thought to it. If rightly done, it could bring out a lot of Business Potential with cheaper costs as the organization grows. In addition to the aforementioned features, tuning the queries behind the visualizations and the servers based on the scale and throughput will be very instrumental in crafting an efficient Business Analytics hosting on cloud.
+Designing a Business Analytics architecture for the organization, needs a futuristic thought to it. If rightly done, it could bring out a lot of Business Potential with cheaper costs as the organization grows. In addition to the aforementioned features, tuning the queries behind the visualizations and the servers based on the scale and throughput will be very instrumental in crafting an efficient Business Analytics hosting on the cloud.
   
 
 > Let's build Visualisations; not wage wars!!
