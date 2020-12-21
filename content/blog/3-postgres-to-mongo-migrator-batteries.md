@@ -1,5 +1,5 @@
 ---
-title: 'Postgres to Mongo Migrator - Batteries Included'
+title: 'Postgres to MongoDB Migrator tool - Pg2Mongo'
 date: 2017-12-10T05:17:00.000-08:00
 draft: false
 aliases: [ "/2017/12/postgres-to-mongo-migrator-batteries.html" ]
