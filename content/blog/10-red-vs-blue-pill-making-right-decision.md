@@ -1,9 +1,24 @@
 ---
 title: 'Tableau Vs PowerBI - Choosing the right BI Server for the Business'
 date: 2020-03-09T14:20:00.002-07:00
-draft: true
+draft: false
 aliases: [ "/2020/03/red-vs-blue-pill-making-right-decision.html" ]
-tags : [tableau, server, bi tools, powerbi, embedded]
+
+# post thumb
+image: "images/featured-post/post10.jpg"
+
+categories:
+  - "Business Intelligence"
+
+tags:
+  - "Tableau"
+  - "Power BI"
+  - "Visualizations"
+  - "Comparison"
+  - "Pricing"
+
+# post type
+type: "featured"
 ---
 
 The choice of the Business Analytics tool and server is highly crucial for growing businesses, exclusively for the startups to visualize their KPIs. One wrong choice can lead to painful migrations of the visualizations and across clouds. The complete understanding of any BI tool can be understood by exploring its documentation. 
@@ -32,7 +47,9 @@ Are you a customer of the Microsoft family of suites or Azure Cloud? Are you usi
 
 Think no further, Power BI will suit you better. The reason is, if the data source (data warehouse or transactional databases) that you are using is developed or maintained by Microsoft, you don't need an on-premises data gateway to perform your data refreshes. Check if your database is compatible for not being required to have an on-premises data gateway from <a href="https://docs.microsoft.com/en-us/power-bi/power-bi-data-sources" rel="nofollow noopener" target="_blank">here</a>.
 
-Tableau also provides access to many data connectors and drivers to establish connectivity. Also, with the support of Tableau Server packages for Linux, Tableau servers have become much more efficient in managing the resources. Data gateways are optional unlike Power BI, where the data gateways are mandatory for non-native data sources.
+In addition to this, depending on the nature of the business, Power BI provides solutions such as PowerBI Embedded (for embedding dashboards on to your platform) or Power BI premium, if just a collaborative environment is required. 
+
+Tableau also provides access to many data connectors and drivers to establish connectivity. Also, with the support of Tableau Server packages for Linux, Tableau servers have become much more efficient in managing the resources. Data gateways are optional unlike Power BI, where the data gateways are mandatory for non-native data sources. Tableau provides embedded solutions, with access to unlimited viewers too.
 
 ![Fig2: The choices](../../images/post/10-red-vs-blue-pill-making-right-decision/img2.gif)
 
@@ -50,7 +67,7 @@ Power BI also performs the heavy data refreshes with much ease, due to the confi
 
 Visualization is the core of the BI exercise. And if those dashboards are not loading on time, that will cost precious business hours. The rendering is dependent on the hardware - especially the memory. In Tableau, the hardware and tuning parameters are completely at the disposal of the tableau Admin. However, the server might have to be restarted while performing the upgrades to the hardware or tuning the parameters. This could also potentially lead to downtime.
 
-This is not the case with Power BI where a premium or dedicated capacity can be purchased for the rendering to happen; the lowest configuration in dedicated capacity - A1 has a capacity of performing about 300 renders per hour with a price of 1$ approx per hour. As the audience grows, this capacity can be increased  and when you go up the ladder from (A1 to A6) configuration, you will know that you are shelling out a huge amount of money (could go all the way up to 36 times that of the cost of A1).
+This is not the case with Power BI where a premium or dedicated capacity can be purchased for the rendering to happen; the lowest configuration in dedicated capacity - A1 has a capacity of performing about 300 renders per hour with a price of 1$ approx per hour. As the audience grows, this capacity can be increased and when you go up the ladder from (A1 to A6) configuration, the price can go all the way up to 36 times that of the cost of A1.
   
 ![Fig4: Visualization Renders](../../images/post/10-red-vs-blue-pill-making-right-decision/img4.gif)
 
@@ -62,8 +79,6 @@ For client-side renderings; Tableau has a cluster setup available to be configur
   
 Does it mean that Power BI is up for no good? No. They do have a dedicated capacity that can be modified based on the peak hour refresh rates and the number of renders happening in an hour.  
   
-We don't have any winners for this round, since both the services incur similar costs when it comes to the licensing aspect.  
-
 ![Fig5: Scale](../../images/post/10-red-vs-blue-pill-making-right-decision/img5.gif)
 
 ### Licenses & Pricing:
@@ -83,7 +98,7 @@ Consider an Organization with about 200 data scientists and 100 business users; 
 
 **Power BI - Components & Pricing**
 
-In the following estimation, we assume that the dedicated capacity is A2 which can se
+The following estimation is done by assuming that the dedicated capacity is A4 (8 VCores + 25 GB of RAM).
 
 |  Components | Pricing |
 | --- | --- |
@@ -92,7 +107,9 @@ In the following estimation, we assume that the dedicated capacity is A2 which c
 | A data gateway inside the same subnet as that of the database </br> (4 cores + 16GB RAM minimum) | 0.38$ per hour |  
 | Total incurred cost (200x9.99)+(8.06x730)+(730x0.38) | **8159.2$ per month** |  
   
-Now that we have the facts right., it's time to pick our winner!! There isn't. Both are good contenders and it all comes down to our requirement & usage.  
+### Conclusion
+
+Designing a Business Analytics architecture for the organization, needs a futuristic thought to it. If rightly done, it could bring out a lot of Business Potential with cheaper costs as the organization grows. In addition to the aforementioned features, tuning the queries behind the visualizations and the servers based on the scale and throughput will be very instrumental in crafting an efficient Business Analytics hosting on cloud.
   
 
 > Let's build Visualisations; not wage wars!!
