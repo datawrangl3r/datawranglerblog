@@ -7,6 +7,9 @@ aliases: [ "/2017/12/es-index-s3-snapshot-restoration.html" ]
 
 image: "images/featured-post/post4.png"
 
+categories:
+  - "Elasticsearch"
+
 # meta description
 description: "This article explains in detail how to create a backup and restore the indexes of elasticsearch"
 

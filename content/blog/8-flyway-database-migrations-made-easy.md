@@ -6,6 +6,9 @@ aliases: [ "/2019/03/flyway-database-migrations-made-easy.html" ]
 
 image: "images/featured-post/post8.jpg"
 
+categories:
+  - "Informal"
+
 # meta description
 description: "This article outlines the tool flyway for database schema migrations and also elobrates on the good practices to maintain versions of the database schema migrations"
 

@@ -8,7 +8,7 @@ aliases: [ "/2017/12/postgres-to-mongo-migrator-batteries.html" ]
 image: "images/featured-post/post3.jpg"
 
 categories:
-  - "Databases"
+  - "Informal"
 
 tags:
   - "Postgres"
