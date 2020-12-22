@@ -5,7 +5,7 @@ draft: false
 
 aliases: [ "/2017/12/es-index-s3-snapshot-restoration.html" ]
 
-image: "images/featured-post/post4.png"
+image: "images/featured-post/post4.jpg"
 
 categories:
   - "Elasticsearch"
