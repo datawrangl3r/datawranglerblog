@@ -4,7 +4,7 @@ date: 2018-02-11T03:05:00.000-08:00
 draft: false
 aliases: [ "/2018/02/elasticsearch-to-mongodb-migration.html" ]
 
-image: "images/featured-post/post5.png"
+image: "images/featured-post/post5.jpg"
 # meta description
 description: "Informal article covering the introduction to an Elasticsearch to MongoDB migration tool known as MongoES, from the house of Datawrangler"
 
