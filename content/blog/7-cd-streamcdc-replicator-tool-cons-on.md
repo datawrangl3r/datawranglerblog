@@ -1,5 +1,5 @@
 ---
-title: 'CD-Stream:CDC Replicator Tool &                    Cons on ETL pipelines'
+title: 'CD-Stream: A cross database CDC Replicator Tool'
 date: 2018-10-30T14:12:00.001-07:00
 draft: false
 aliases: [ "/2018/10/cd-streamcdc-replicator-tool-cons-on.html" ]
