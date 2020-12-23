@@ -39,7 +39,7 @@ Performing the switch from relational to non-relational databases can be tedious
 
 ![Fig2: Pg2Mongo](../../images/post/3-postgres-to-mongo-migrator-batteries/img2.png)
 
-**Pg2Mongo** is an opensource migration tool, written on python3 which gives exclusive control over cross-database migrations. The migration from relational to non-relational MongoDB can be done very easily by the following steps.
+**Pg2Mongo** is a opensource migration tool, written on python3 which gives exclusive control over cross-database migrations. The migration from relational to non-relational MongoDB can be done very easily by the following steps.
 
 * Make sure that you have access to your very own `Postgres` and `MongoDB` servers.
 * Clone the repository and install the requirements.
