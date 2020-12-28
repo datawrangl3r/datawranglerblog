@@ -2,6 +2,7 @@
 title: 'IBM Cloud - From Spreadsheets to Cloud Hosted Dashboards Under 30 Minutes'
 date: 2020-12-10T12:01:00.001-08:00
 draft: false
+aliases: [ "/2020/12/12-ibm-cloud.html" ]
 
 # post thumb
 image: "images/featured-post/post12.jpg"
@@ -20,7 +21,7 @@ tags:
   - "BI"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 IBM's cloud computing offering - IBM Cloud provides a scalable infrastructure, and platform as a service to organizations from small size to enterprise capacity. The offering is characteristic of its transparent, minimalistic, yet powerful environment for computing and Business Intelligence needs. This article aims to demonstrate how the IBM Cloud Services can be easily used to convert a boring and simple spreadsheet to a mighty enterprise-ready BI dashboard with scalable visualizations across an organization, under 30 minutes for free.
