@@ -25,9 +25,9 @@ type: "featured"
 
 Data Streaming processes help in transferring a huge amount of data without buffering in memory. This has laid a strong foundation for the data streaming and queuing applications/services of today such as Kafka, Pulsar, etc. In this article, we will be exploring how data streaming can be implemented over JDBC connectors in Java and how we can evade the memory exhaustion issues.
 
-Are you new to Java or do you want to refresh your Java basics? Head over to <a href="https://codegym.cc/" rel="nofollow noopener" target="_blank">https://codegym.cc/</a> and start learning today.
+<!-- Are you new to Java or do you want to refresh your Java basics? Head over to <a href="https://codegym.cc/" rel="nofollow noopener" target="_blank">https://codegym.cc/</a> and start learning today.
 
-![Fig1: CodeGym](../../images/post/13-data-streams-in-java/img1.png)
+![Fig1: CodeGym](../../images/post/13-data-streams-in-java/img1.png) -->
 
 ### Setting up the Database
 
@@ -156,9 +156,9 @@ In the next section, we will be streaming and exporting these tables as individu
 
 ### Stream Data from MySQL
 
-If you are refreshing your basics of Java language, sign up for a free account at <a href="https://codegym.cc/" rel="nofollow noopener" target="_blank">https://codegym.cc/</a> and start learning today. With over 1200+ programming tasks with automatic verification of your solutions, Codegym can help you get up and running in no time.
+<!-- If you are refreshing your basics of Java language, sign up for a free account at <a href="https://codegym.cc/" rel="nofollow noopener" target="_blank">https://codegym.cc/</a> and start learning today. With over 1200+ programming tasks with automatic verification of your solutions, Codegym can help you get up and running in no time.
 
-![Fig2: CodeGym](../../images/post/13-data-streams-in-java/img2.png)
+![Fig2: CodeGym](../../images/post/13-data-streams-in-java/img2.png) -->
 
 Now that we are ready, let's dive right into the code. The full code can be found at: <a href="https://github.com/datawrangl3r/datastreamexample/blob/main/connector.java" rel="nofollow noopener" target="_blank">https://github.com/datawrangl3r/datastreamexample/blob/main/connector.java</a>
 
@@ -215,4 +215,4 @@ In the above pseudocode, the section where we define the `setFetchsize` if not d
 
 Another point to note is that, whenever these connections are defined, concurrent statements can not be passed with the same connection object. This puts us in a position to stream the results as fast as we can.
 
-You could write your very own database streaming code too. Sign up for a free account at <a href="https://codegym.cc/" rel="nofollow noopener" target="_blank">https://codegym.cc/</a> and start learning Java today!
+<!-- You could write your very own database streaming code too. Sign up for a free account at <a href="https://codegym.cc/" rel="nofollow noopener" target="_blank">https://codegym.cc/</a> and start learning Java today! -->

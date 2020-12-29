@@ -13,6 +13,6 @@ description: "Summary about the author"
 type : "about"
 ---
 
-Developer with 5+ Years of Experience in building data products | 
-Architecting/Automating/Optimizing Mission-Critical Deployments | HA setups for cloud technologies |
-Scaling & Securing the cloud Infrastructure | Blogger & an Open Source Supporter |
+Developer with 6+ Years of Experience in building data products | 
+Architecting/Automating/Optimizing Mission-Critical Deployments | HA setups for cloud & BI technologies |
+Scaling & Securing the cloud Infrastructure | Blogging evangelist | Author at datawrangler.in
