@@ -270,15 +270,15 @@ Assuming that we have individual tabs open for each component, let's start them 
 ./filebeat -e -strict.perms=false -c filebeat.yml -d "publish"
 ```
 
-Now that our components are running, let's open the browser and locate the URL: <a href="http://localhost:9200/_cat/indices" rel="nofollow noopener" target="_blank">http://localhost:9200/_cat/indices</a>. This will list the indices available. You can find a new index with the format: *tutorial-YYYY.MM.DD*. This contains the rows of logs indexed as documents which can be verified by locating to <a href="http://localhost:9200/tutorial-YYYY.MM.DD/_search" rel="nofollow noopener" target="_blank">http://localhost:9200/tutorial-YYYY.MM.DD/_search</a> as shown below:
+Now that our components are running, let's open the browser and locate the URL: <a href="http://localhost:9200/_cat/indices" rel="nofollow noopener" target="_blank">http://localhost:9200/_cat/indices</a>. This will list the indices available. You can find a new index with the format: *tutorial-YYYY.MM.DD*. This contains the rows of logs indexed as documents which can be verified by locating to <a href="http://localhost:9200/tutorial-YYYY.MM.DD/_search" rel="nofollow noopener" target="_blank">http://localhost:9200/tutorial-YYYY.MM.DD/_search</a> as shown in the following video:
 
-![Fig3: Booting up the ELK Stack](../../images/post/14-ELK-stack/img3.gif)
+{{< youtube id="ojer3Vm9wSU" autoplay="false" >}}
 
-### Visualizing Data on Kibana
+### Visualizing Data in Kibana
 
-The logs can be visualized in Kibana by setting up the index pattern.Locate the URL: <a href="http://localhost:5601" rel="nofollow noopener" target="_blank">http://localhost:5601</a> and follow the steps given in the following illustration:
+The logs can be visualized in Kibana by setting up the index pattern.Locate the URL: <a href="http://localhost:5601" rel="nofollow noopener" target="_blank">http://localhost:5601</a> and follow the steps given in the following video:
 
-![Fig4: Seting up the Index on Kibana](../../images/post/14-ELK-stack/img4.gif)
+{{< youtube id="4O-WFS-2emo" autoplay="false" >}}
 
 Dashboards can be created in Kibana on top of these index patterns and the data can be visualized.
 
