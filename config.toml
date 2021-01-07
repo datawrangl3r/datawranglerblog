@@ -13,6 +13,11 @@ enableRobotsTXT = true
 googleAnalitycsID = "UA-FE9HN6WQ2F"
 googleAnalytics = "UA-FE9HN6WQ2F"
 
+
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "rainbow_dash"
+
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 

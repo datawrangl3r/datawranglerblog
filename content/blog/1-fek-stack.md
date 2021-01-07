@@ -48,7 +48,7 @@ The FEK Stack differs from ELK by the fact that there is no need for Logstash fo
 The fluentd agents can be installed based on the instructions given in this link (https://docs.fluentd.org/installation).
 Now that the fluentd agent has been installed, let's explore how the agent is able to transform and ship the corresponding logs. For this example, you can clone the following repository: https://github.com/datawrangl3r/logGenerator as:
 
-```
+```bash
 git clone https://github.com/datawrangl3r/logGenerator
 cd logGenerator
 python3 generator.py -i 1000
@@ -56,7 +56,7 @@ python3 generator.py -i 1000
 
 Executing the above snippet will generate a log file in the current directory with the filename as: `YYYY-MM-DD` representing the logs generated for the day. A preview of the file should resemble something like:
 
-```
+```plaintext
 2018-12-06 01:55:02 lumen.CRITICAL: API-1 Exhausted  => {"message":"Your balance is too low to make an API call"}
 2018-12-06 01:55:02 lumen.INFO: ProductStatusID changed => {"produt_id":"{}"}
 2018-12-06 01:55:02 lumen.CRITICAL: API-1 Exhausted  => {"message":"Your balance is too low to make an API call"}
@@ -69,13 +69,13 @@ Executing the above snippet will generate a log file in the current directory wi
 
 The logs that are to be shipped and transformed need to identified and the matching grok pattern needs to be determined. Upon examining the above lines, the grok pattern is found to be:
 
-```
+```plaintext
 /\[(?<timestamp>.*)\] (?<source>.*)\.(?<severity>.*): (?<message>.*)=>(?<identifier>.*)$/ 
 ```
 
 Hence, the following configuration is placed in the location `/etc/td-agent/` under the file name `td-agent.conf` of the source machine as:
 
-```conf
+```
 <source>
   format none
   @type tail
@@ -102,7 +102,7 @@ Hence, the following configuration is placed in the location `/etc/td-agent/` un
 
 In the above configuration, the path corresponds to the path of the logGenerator which contains the log file. Since, the new set of configuration has been put for td-agent, a reload operation needs to be done to consider this configuration file as:
 
-```
+```bash
 > sudo service td-agent reload
 ```
 

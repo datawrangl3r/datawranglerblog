@@ -166,7 +166,7 @@ The pseudocode can be elaborated as:
 
 * Create connection object & prepare statements using java.sql.DriverManager. Set the `fetchsize` of the statement to a preferred number which denotes the number of rows to be retrieved per call.
 
-```
+```java
 Connection con = DriverManager.getConnection(url, user, password); 
 Statement st = con.createStatement(java.sql.ResultSet.TYPE_FORWARD_ONLY, 
                                 java.sql.ResultSet.CONCUR_READ_ONLY);
