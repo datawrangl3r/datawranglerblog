@@ -24,7 +24,7 @@ tags:
 type: "featured"
 ---
 
-In our [previous post](https://www.datawrangler.in/blog/12-ibm-cloud/), we had discussed the scalable infrastructure, and PASS offered by IBM Cloud to scale startups, organizations, and enterprises. IBM Cloud's Watson Studio also offers automated Machine Learning (ML) capabilities to accelerate the model building and feature engineering capabilities of organizations ranging from early-stage startups to enterprises.
+In our [previous post](https://www.datawrangler.in/blog/12-ibm-cloud/), we had discussed the scalable infrastructure, and PAAS offered by IBM Cloud to scale startups, organizations, and enterprises. IBM Cloud's Watson Studio also offers automated Machine Learning (ML) capabilities to accelerate the model building and feature engineering capabilities of organizations ranging from early-stage startups to enterprises.
 
 In this article, we will be exploring the capabilities of AutoAI to predict the onset of diabetes. AutoAI will be exploring the various ML algorithms and will be finding the right parameters and algorithms for the prediction, with just a few clicks.
 
