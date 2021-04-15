@@ -1,7 +1,7 @@
 ---
-title: 'IBM Watson - AutoAI - Accelerating & Automating ML Capabilities'
+title: 'IBM Watson - AutoAI: Accelerating & Automating ML Capabilities'
 date: 2021-04-14T12:01:00.001-08:00
-draft: true
+draft: false
 aliases: [ "/2021/04/16-ibm-autoai.html" ]
 
 # post thumb
@@ -11,7 +11,7 @@ categories:
   - "Data Science"
 
 # meta description
-description: "AutoAI is an AI generating Machine Learning data pipelines that accelerate the efforts of the data scientists in testing multiple models and performing mundane feature engineering tasks."
+description: "IBM Cloud's Watson Studio also offers automated Machine Learning (ML) capabilities to accelerate the model building and feature engineering capabilities of organizations ranging from early-stage startups to enterprises. Typically, the data scientists take care of the whole ML lifecycle and it takes weeks to find the perfect selection of features, tuning the parameters, and performing the trial and errors on testing different algorithms. IBM's AutoAI experiments take part of the workload where most of the time of the data scientist is spent, which includes: feature engineering, model selection, and parameter optimization."
 
 tags:
   - "IBM Cloud"
@@ -44,10 +44,11 @@ This could help drive productivity, bridge skill gaps, and help in one-click dep
 
 ## The AutoAI Experiment
 
+You can get your free IBM Cloud account [from here](https://www.ibm.com/in-en/cloud/free).
 The dataset for this AutoAI experiment can be downloaded [from here](https://www.kaggle.com/uciml/pima-indians-diabetes-database/download). The dataset is from the National Institute of Diabetes and Digestive and Kidney Diseases. It is to predict the onset of diabetes in females based on some diagnostic measurements.
 
 In the following video, we explain how to set up an AutoAI experiment to predict the onset of diabetes. You can also get your free account and access to IBM Cloud by following the steps mentioned [here.](https://www.datawrangler.in/blog/12-ibm-cloud/)
 
-{{< youtube id="" autoplay="false" >}}
+{{< youtube id="uIfq8m7fCq0" autoplay="false" >}}
 
 As you can see, setting up an AI experiment and deploying the model as an API is a breeze, thanks to IBM Watson's AutoAI. Imagine what a data scientist could achieve with a tool like this, that tests all these algorithms in a few minutes, rather than several weeks. Let us know what you think about AutoAI in the comments below.
