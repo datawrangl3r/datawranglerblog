@@ -1,6 +1,6 @@
 ---
 title: 'IBM Watson - AutoAI - Accelerating & Automating ML Capabilities'
-date: 2021-04-15T12:01:00.001-08:00
+date: 2021-04-14T12:01:00.001-08:00
 draft: false
 aliases: [ "/2021/04/16-ibm-autoai.html" ]
 
