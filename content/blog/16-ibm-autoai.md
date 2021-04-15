@@ -21,7 +21,7 @@ tags:
   - "BI"
 
 # post type
-type: "post"
+type: "featured"
 ---
 
 In our [previous post](https://www.datawrangler.in/blog/12-ibm-cloud/), we had discussed the scalable infrastructure, and PASS offered by IBM Cloud to scale startups, organizations, and enterprises. IBM Cloud's Watson Studio also offers automated Machine Learning (ML) capabilities to accelerate the model building and feature engineering capabilities of organizations ranging from early-stage startups to enterprises.
