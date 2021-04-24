@@ -42,6 +42,16 @@ This could help drive productivity, bridge skill gaps, and help in one-click dep
 
 ![Fig3: An AutoAI Experiment](../../images/post/16-ibm-autoai/img3.jpg)
 
+AutoAI also has the functionality to export the complete pipeline to a python notebook, where the data scientists can play around with the parameters and incorporate further more optimizations to the predicted model.
+
+![Fig3: An App](../../images/post/16-ibm-autoai/img4.jpg)
+
+## Deployment Using Auto AI
+
+Auto AI, with it's target deployment spaces can help the data scientists deploy their models under minutes to a fully functional and scalable REST API. The developers can simply use these end-points to build a fully scalable app like the one shown below:
+
+![Fig3: An App](../../images/post/16-ibm-autoai/img5.jpg)
+
 ## The AutoAI Experiment
 
 You can get your free IBM Cloud account [from here](https://www.ibm.com/in-en/cloud/free).
@@ -49,6 +59,6 @@ The dataset for this AutoAI experiment can be downloaded [from here](https://www
 
 In the following video, we explain how to set up an AutoAI experiment to predict the onset of diabetes. You can also get your free account and access to IBM Cloud by following the steps mentioned [here.](https://www.datawrangler.in/blog/12-ibm-cloud/)
 
-{{< youtube id="uIfq8m7fCq0" autoplay="false" >}}
+{{< youtube id="XLuh7AeSWCw" autoplay="false" >}}
 
 As you can see, setting up an AI experiment and deploying the model as an API is a breeze, thanks to IBM Watson's AutoAI. Imagine what a data scientist could achieve with a tool like this, that tests all these algorithms in a few minutes, rather than several weeks. Let us know what you think about AutoAI in the comments below.
