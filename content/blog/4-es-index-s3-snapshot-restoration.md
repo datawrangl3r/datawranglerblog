@@ -5,7 +5,7 @@ draft: false
 
 aliases: [ "/2017/12/es-index-s3-snapshot-restoration.html" ]
 
-image: "images/featured-post/post4.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post4.jpg"
 
 categories:
   - "Elasticsearch"
@@ -97,7 +97,7 @@ In the URL, `logs_backup` denotes the name of the snapshot file.
 
 The list of snapshots can be checked by executing the above command. This list provides the indices that have been backed up to the object-store. The following is the response received.
 
-![Fig1: Listing the snapshots](../../images/post/4-es-index-s3-snapshot-restoration/img1.png)
+![Fig1: Listing the snapshots](https://datawrangler.mo.cloudinary.net/images/post/4-es-index-s3-snapshot-restoration/img1.png)
 
 #### Step4: Creating a Snapshot
 
@@ -206,7 +206,7 @@ In the URL, `logs_backup` denotes the name of the snapshot file.
 
 The list of snapshots can be checked by executing the above command. This list provides the indices that have been backed up to the object-store. The following is the response received.
 
-![Fig1: Listing the snapshots](../../images/post/4-es-index-s3-snapshot-restoration/img1.png)
+![Fig1: Listing the snapshots](https://datawrangler.mo.cloudinary.net/images/post/4-es-index-s3-snapshot-restoration/img1.png)
 
 #### Step4: Creating a Snapshot
 

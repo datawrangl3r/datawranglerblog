@@ -4,7 +4,7 @@ date: 2021-01-23T00:00:00.001-08:00
 draft: false
 
 # post thumb
-image: "images/featured-post/post15.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post15.jpg"
 
 categories:
   - "Data Engineering"
@@ -25,7 +25,7 @@ The advent of the era of cloud computing in the past 10 years has made data stor
 
 There has been an evolution from traditional data lake – data warehouse architectures and the organizations are looking for faster and efficient ways in decision making by extracting the value out of the stored information. In this article, we will be having an eagle’s eye view of the current age of cloud computing: from the eyes of a data engineer. We hope that this will give a vision on what an organization expecting to leverage cloud computing to get value out of their data should foresee.
 
-![Fig1:Advantages of Cloud Computing](../../images/post/15-cloud-computing/img1.jpg)
+![Fig1:Advantages of Cloud Computing](https://datawrangler.mo.cloudinary.net/images/post/15-cloud-computing/img1.jpg)
 
 ### The need for cloud computing
 
@@ -39,7 +39,7 @@ This is the most crucial step. As the organization grows, spending on services a
 
 With the fast adaptability of the cloud offerings, the organizations get access to powerful compute resources at affordable hourly pricing. The cloud services also offer many platforms for the processing, storage, and visualization of the data. Most of them work on the Pay-Per-Use business model. The use of the services is metered and charged only for the period they have been used. The service can also be paused during which no charges will be applied.
 
-![Fig2:The Cloud Data Ecosystem](../../images/post/15-cloud-computing/img2.jpg)
+![Fig2:The Cloud Data Ecosystem](https://datawrangler.mo.cloudinary.net/images/post/15-cloud-computing/img2.jpg)
 
 Some of the examples of the PAAS solutions provided by the cloud services include:
 

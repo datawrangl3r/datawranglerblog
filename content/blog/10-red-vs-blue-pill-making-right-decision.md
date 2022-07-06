@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2020/03/red-vs-blue-pill-making-right-decision.html" ]
 
 # post thumb
-image: "images/featured-post/post10.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post10.jpg"
 
 categories:
   - "Business Intelligence"
@@ -25,7 +25,7 @@ The choice of the Business Analytics tool and server is highly crucial for growi
 
 If one wishes to compare it with other market leaders, there isn't any honest comparison across the BI leaders except for the market research reports for BI tools from Gartner (Magic Quadrants for BI tools) which gives a detailed evaluation of the BI tools. Here, we evaluate both the market leaders of BI servers - Microsoft PowerBI and Tableau Server, evaluating their features and pricing, helping you to choose the right BI server for understanding your KPIs.
 
-![Fig1: Tableau Vs Power BI](../../images/post/10-red-vs-blue-pill-making-right-decision/img1.jpg)
+![Fig1: Tableau Vs Power BI](https://datawrangler.mo.cloudinary.net/images/post/10-red-vs-blue-pill-making-right-decision/img1.jpg)
 
 
 | Characteristic | Tableau | PowerBI |
@@ -51,7 +51,7 @@ In addition to this, depending on the nature of the business, Power BI provides 
 
 Tableau also provides access to many data connectors and drivers to establish connectivity. Also, with the support of Tableau Server packages for Linux, Tableau servers have become much more efficient in managing the resources. Data gateways are optional unlike Power BI, where the data gateways are mandatory for non-native data sources. Tableau provides embedded solutions, with access to unlimited viewers too.
 
-![Fig2: The choices](../../images/post/10-red-vs-blue-pill-making-right-decision/img2.gif)
+![Fig2: The choices](https://datawrangler.mo.cloudinary.net/images/post/10-red-vs-blue-pill-making-right-decision/img2.gif)
 
 ### Data Extracts & Refreshes
 
@@ -61,7 +61,7 @@ The ability to devise a multi-node architecture for the tableau server is a bett
 
 Power BI also performs the heavy data refreshes with much ease, due to the configuration of the data gateway instance deployed in the same subnet as that of the databases (for Non-Microsoft family of databases).
 
-![Fig3: Data Refreshes](../../images/post/10-red-vs-blue-pill-making-right-decision/img3.gif)
+![Fig3: Data Refreshes](https://datawrangler.mo.cloudinary.net/images/post/10-red-vs-blue-pill-making-right-decision/img3.gif)
 
 ### Visualization Renders
 
@@ -69,7 +69,7 @@ Visualization is the core of the BI exercise. And if those dashboards are not lo
 
 This is not the case with Power BI where a premium or dedicated capacity can be purchased for the rendering to happen; the lowest configuration in dedicated capacity - A1 has a capacity of performing about 300 renders per hour with a price of 1$ approx per hour. As the audience grows, this capacity can be increased and when you go up the ladder from (A1 to A6) configuration, the price can go all the way up to 36 times that of the cost of A1.
   
-![Fig4: Visualization Renders](../../images/post/10-red-vs-blue-pill-making-right-decision/img4.gif)
+![Fig4: Visualization Renders](https://datawrangler.mo.cloudinary.net/images/post/10-red-vs-blue-pill-making-right-decision/img4.gif)
 
 ### Scale
 
@@ -79,13 +79,13 @@ For client-side renderings; Tableau has a cluster setup available to be configur
   
 Does it mean that Power BI is up for no good? No. They do have a dedicated capacity that can be modified based on the peak hour refresh rates and the number of renders happening in an hour.  
   
-![Fig5: Scale](../../images/post/10-red-vs-blue-pill-making-right-decision/img5.gif)
+![Fig5: Scale](https://datawrangler.mo.cloudinary.net/images/post/10-red-vs-blue-pill-making-right-decision/img5.gif)
 
 ### Licenses & Pricing
 
 Consider an Organization with about 200 data scientists and 100 business users; let's estimate the pricing for both Tableau Server & Power BI Embedded.  
   
-![Fig6: Pricing](../../images/post/10-red-vs-blue-pill-making-right-decision/img6.gif)
+![Fig6: Pricing](https://datawrangler.mo.cloudinary.net/images/post/10-red-vs-blue-pill-making-right-decision/img6.gif)
   
 **Tableau Server - Components & Pricing**
 

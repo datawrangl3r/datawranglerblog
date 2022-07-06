@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2017/07/model-productionisation-mnist.html" ]
 
 # post thumb
-image: "images/featured-post/post2.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post2.jpg"
 
 # meta description
 description: "Demonstration of typical MNIST Handwritten Digits Prediction using Python and to productionize using Flask Microframework"
@@ -53,35 +53,35 @@ With the `2_predict.py` script running, fire up the browser, and hit the followi
 
 <a href="http://localhost:5000/predictint?imageName=numba6.jpg" rel="nofollow noopener" target="_blank">http://localhost:5000/predictint?imageName=numba6.jpg</a>
   
-![Fig1: Number 6 in the testing](../../images/post/2-model-productionisation-mnist/img1.jpg)
+![Fig1: Number 6 in the testing](https://datawrangler.mo.cloudinary.net/images/post/2-model-productionisation-mnist/img1.jpg)
 
 The model has a pretty good accuracy rate. The response is given as number 6.  
   
-![Fig2: Mind == blown](../../images/post/2-model-productionisation-mnist/img2.gif)
+![Fig2: Mind == blown](https://datawrangler.mo.cloudinary.net/images/post/2-model-productionisation-mnist/img2.gif)
 
 Let's evaluate the model with the image - `numba7.jpg`.  
 
-![Fig3: Number 7 in the testing](../../images/post/2-model-productionisation-mnist/img3.jpg)
+![Fig3: Number 7 in the testing](https://datawrangler.mo.cloudinary.net/images/post/2-model-productionisation-mnist/img3.jpg)
 
 <a href="http://localhost:5000/predictint?imageName=numba7.jpg" rel="nofollow noopener" target="_blank">http://localhost:5000/predictint?imageName=numba7.jpg</a>
 
 You may have noticed the response to be as 7, correctly predicted by the model as a response.
 
-![Fig4: All Righty Then](../../images/post/2-model-productionisation-mnist/img4.jpg)
+![Fig4: All Righty Then](https://datawrangler.mo.cloudinary.net/images/post/2-model-productionisation-mnist/img4.jpg)
  
 Let's try out the image: `numba9.jpg`.
 
-![Fig5: Number 9 in the testing](../../images/post/2-model-productionisation-mnist/img5.jpg)
+![Fig5: Number 9 in the testing](https://datawrangler.mo.cloudinary.net/images/post/2-model-productionisation-mnist/img5.jpg)
 
 [http://localhost:5000/predictint?imageName=numba9.jpg](http://localhost:5000/predictint?imageName=numba9.jpg)  
 
 The response is received as number 5, which is weird for input as 9.
 
-![Fig6: Uh oh.!](../../images/post/2-model-productionisation-mnist/img6.jpg)
+![Fig6: Uh oh.!](https://datawrangler.mo.cloudinary.net/images/post/2-model-productionisation-mnist/img6.jpg)
 
 The prediction is wrong. However, Five does look a lot like 9 to the human eyes. 
 
-![Fig7: Believe your eyes!](../../images/post/2-model-productionisation-mnist/img7.gif)
+![Fig7: Believe your eyes!](https://datawrangler.mo.cloudinary.net/images/post/2-model-productionisation-mnist/img7.gif)
 
 The model can be further trained and improved by adding more datasets to train on. Thus, our API can be really helpful in deploying the created model to production.
 

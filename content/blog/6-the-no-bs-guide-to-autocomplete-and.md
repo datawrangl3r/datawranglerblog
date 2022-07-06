@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2018/07/the-no-bs-guide-to-autocomplete-and.html" ]
 
 # post thumb
-image: "images/featured-post/post6.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post6.jpg"
 
 # meta description
 description: "An article to understand fuzzysearch and autocomplete in elasticsearch."
@@ -24,7 +24,7 @@ type: "post"
 
 Ever wondered how an autocomplete works in your favorite search engines? It is all about the indexing of the documents and tokenizing the keywords by applying analysis settings to them. In this article, we will be looking at how a fuzzy search and autocomplete works in elasticsearch.
 
-![Fig1: AutoComplete](../../images/post/6-the-no-bs-guide-to-autocomplete-and/img1.gif)
+![Fig1: AutoComplete](https://datawrangler.mo.cloudinary.net/images/post/6-the-no-bs-guide-to-autocomplete-and/img1.gif)
 
 ### The Basics
 

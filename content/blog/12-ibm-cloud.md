@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2020/12/12-ibm-cloud.html" ]
 
 # post thumb
-image: "images/featured-post/post12.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post12.jpg"
 
 categories:
   - "Business Intelligence"

@@ -4,7 +4,7 @@ date: 2018-02-11T03:05:00.000-08:00
 draft: false
 aliases: [ "/2018/02/elasticsearch-to-mongodb-migration.html" ]
 
-image: "images/featured-post/post5.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post5.jpg"
 # meta description
 description: "Informal article covering the introduction to an Elasticsearch to MongoDB migration tool known as MongoES, from the house of Datawrangler"
 
@@ -35,7 +35,7 @@ The following are some of the situations where the developers simply **love to h
 
 We get used to some situations. But, there are some we don't.
 
-![Fig1: It's just a bad day](../../images/post/5-elasticsearch-to-mongodb-migration/img1.gif)
+![Fig1: It's just a bad day](https://datawrangler.mo.cloudinary.net/images/post/5-elasticsearch-to-mongodb-migration/img1.gif)
 
 *   **DISCONNECTION FROM THE SERVER DUE TO BAD INTERNET DURING A MIGRATION** \- Ouch!! That's gotta hurt real bad.
 
@@ -54,11 +54,11 @@ We get used to some situations. But, there are some we don't.
 
 * Can never be resumed from the point of failure. If the connectivity goes down during the migration; the transferred collection has to be deleted and the data transfer has to be initiated once again from the beginning.  
 
-![Fig2: No & No](../../images/post/5-elasticsearch-to-mongodb-migration/img2.gif)
+![Fig2: No & No](https://datawrangler.mo.cloudinary.net/images/post/5-elasticsearch-to-mongodb-migration/img2.gif)
 
 This is where MongoES can help - <a href="https://github.com/datawrangl3r/mongoes" rel="nofollow noopener" target="_blank">MongoES</a>. It is a pure python3-bred Migration tool to migrate documents from the Elasticsearch's indices to the MongoDB collections.
 
-![Fig3: MongoES](../../images/post/5-elasticsearch-to-mongodb-migration/img3.png)
+![Fig3: MongoES](https://datawrangler.mo.cloudinary.net/images/post/5-elasticsearch-to-mongodb-migration/img3.png)
 
 It's robust in its native way; no queues/message brokers are involved; which means that there won't be any memory spikes or system freezes.  
   

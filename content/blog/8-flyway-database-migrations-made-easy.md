@@ -4,7 +4,7 @@ date: 2019-03-24T13:09:00.002-07:00
 draft: false
 aliases: [ "/2019/03/flyway-database-migrations-made-easy.html" ]
 
-image: "images/featured-post/post8.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post8.jpg"
 
 categories:
   - "Informal"
@@ -40,7 +40,7 @@ Before we proceed:
   
 Now that we are done with the warnings:
 
-![Fig1: Away, we go!](../../images/post/8-flyway-database-migrations-made-easy/img1.gif)
+![Fig1: Away, we go!](https://datawrangler.mo.cloudinary.net/images/post/8-flyway-database-migrations-made-easy/img1.gif)
 
 ## Installation:
 
@@ -69,7 +69,7 @@ flyway.cleanDisabled=false
 
 The configuration is trying to convey you not to do it. So:
 
-![Fig2: Don't do it!](../../images/post/8-flyway-database-migrations-made-easy/img2.gif)
+![Fig2: Don't do it!](https://datawrangler.mo.cloudinary.net/images/post/8-flyway-database-migrations-made-easy/img2.gif)
 
 
 It's all fun until one day you accidentally do a clean.  

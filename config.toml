@@ -89,7 +89,7 @@ pygmentsStyle = "rainbow_dash"
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "https://datawrangler.mo.cloudinary.net/images/logo.png"
 home = "Home"
 # Meta data
 description = "DATAWRANGLER - "
@@ -97,9 +97,9 @@ author = "Sathiya Sarathi"
 # Contact Information
 mobile = "8807721274"
 email = "sathyasarathi90@gmail.com"
-location = "Chennai, India"
+location = "Remote"
 # copyright
-copyright = "| copyright &copy; 2020 [DATAWRANGLER](https://www.datawrangler.in) All Rights Reserved |"
+copyright = "| copyright &copy; 2022 [DATAWRANGLER](https://www.datawrangler.in) All Rights Reserved |"
 
 # Preloader
 [params.preloader]

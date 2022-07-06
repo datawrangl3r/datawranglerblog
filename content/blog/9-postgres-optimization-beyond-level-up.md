@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2019/08/postgres-optimization-beyond-level-up.html" ]
 
 # post thumb
-image: "images/featured-post/post9.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post9.jpg"
 
 categories:
   - "Databases"
@@ -30,13 +30,13 @@ This article will provide some useful pointers and action plans to become a powe
   
 What to do when a query is slow?  
   
-![Fig1: Slow Query](../../images/post/9-postgres-optimization-beyond-level-up/img1.gif)
+![Fig1: Slow Query](https://datawrangler.mo.cloudinary.net/images/post/9-postgres-optimization-beyond-level-up/img1.gif)
   
 In most cases, the occurrence of a slow query is due to the absence of indexes, for those fields that are being used in the where clause of the query. That should have solved the problem, right? RIGHT?  
   
 You:  
 
-![Fig2: Are you kidding me?](../../images/post/9-postgres-optimization-beyond-level-up/img2.gif)
+![Fig2: Are you kidding me?](https://datawrangler.mo.cloudinary.net/images/post/9-postgres-optimization-beyond-level-up/img2.gif)
   
 I hear you; Life ain't Fair, or _Is it?_  
   
@@ -107,4 +107,4 @@ maintenance\_mem: 256MB
 Note to Self: Index & Optimize.!!  
   
 
-![Fig3: You have got the Power!](../../images/post/9-postgres-optimization-beyond-level-up/img3.gif)
+![Fig3: You have got the Power!](https://datawrangler.mo.cloudinary.net/images/post/9-postgres-optimization-beyond-level-up/img3.gif)

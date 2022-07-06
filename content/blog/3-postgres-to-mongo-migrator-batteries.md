@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2017/12/postgres-to-mongo-migrator-batteries.html" ]
 
 # post thumb
-image: "images/featured-post/post3.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post3.jpg"
 
 categories:
   - "Informal"
@@ -23,7 +23,7 @@ type: "post"
 
 Cross-database migrations have always been tedious and traumatic. We will just end up writing hours and hours of scripts to perform a task and it is useful for a single time only, which makes us think: *"All this horsepower and no room to gallop?"*
   
-![Fig1: Stuck](../../images/post/3-postgres-to-mongo-migrator-batteries/img1.jpg)
+![Fig1: Stuck](https://datawrangler.mo.cloudinary.net/images/post/3-postgres-to-mongo-migrator-batteries/img1.jpg)
 
 ## Postgres to MongoDB
 
@@ -37,7 +37,7 @@ Performing the switch from relational to non-relational databases can be tedious
 
 ## [Pg2Mongo](https://github.com/datawrangl3r/pg2mongo)
 
-![Fig2: Pg2Mongo](../../images/post/3-postgres-to-mongo-migrator-batteries/img2.png)
+![Fig2: Pg2Mongo](https://datawrangler.mo.cloudinary.net/images/post/3-postgres-to-mongo-migrator-batteries/img2.png)
 
 **Pg2Mongo** is a opensource migration tool, written on python3 which gives exclusive control over cross-database migrations. The migration from relational to non-relational MongoDB can be done very easily by the following steps.
 
@@ -122,4 +122,4 @@ $ python3 __init__.py
 
 You may find that based on the specified collection and transformation details mentioned in the configuration file, the migration would have completed in the destination MongoDB.
 
-![Fig3: Relational to Non-Relational](../../images/post/3-postgres-to-mongo-migrator-batteries/img3.jpg)
+![Fig3: Relational to Non-Relational](https://datawrangler.mo.cloudinary.net/images/post/3-postgres-to-mongo-migrator-batteries/img3.jpg)

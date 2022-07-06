@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2021/01/elk-stack-not.html" ]
 
 # post thumb
-image: "images/featured-post/post14.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post14.jpg"
 
 # meta description
 description: "Hands-On Tutorial on the widely popular ELK stack"
@@ -41,7 +41,7 @@ ELK Stack, parses and transforms the logs to extract, store, and visualize the i
 
 ELK is an acronym for 'Elasticsearch', 'Logstash' and 'Kibana'. The log aggregation framework is made up of all these three components along with 'beats' agents to ship the logs to the stack. The components can be visually understood as follows:
 
-![Fig1: ELK Components](../../images/post/14-ELK-stack/img1.png)
+![Fig1: ELK Components](https://datawrangler.mo.cloudinary.net/images/post/14-ELK-stack/img1.png)
 
 As seen in the above illustration, the ELK stack consists of four components in total and the functions of each component can be explained as:
 
@@ -91,7 +91,7 @@ These JSON strings will be stored as documents in Elasticsearch and we will be v
 
 Before we begin, It's not just Elasticsearch, Logstash & Kibana, but there's also another component to the stack which is vital for shipping the logs to Logstash - *beats*. Depending on the nature of the data source, we can choose from the beats family:
 
-![Fig2: Beats Family](../../images/post/14-ELK-stack/img2.png)
+![Fig2: Beats Family](https://datawrangler.mo.cloudinary.net/images/post/14-ELK-stack/img2.png)
 
 For this exercise, we will be looking at `Filebeat` - one of the commonly used log shippers. Filebeat ships the logs of APIs, web apps, and any file with readable lines to Logstash or Elasticsearch. This is the initial component in our log aggregation framework. Filebeat can ship the logs to either Elasticsearch directly or Logstash for processing. 
 

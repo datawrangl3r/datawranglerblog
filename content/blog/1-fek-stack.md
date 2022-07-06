@@ -5,7 +5,7 @@ draft: false
 aliases: [ "/2017/06/elk-stack-not.html" ]
 
 # post thumb
-image: "images/featured-post/post1.jpg"
+image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post1.jpg"
 
 # meta description
 description: "Demonstration of the capabilities of FEK Stack, equivalent to the widely popular ELK Stack"
@@ -37,13 +37,13 @@ ELK Stack will be covered in a separate article, in detail. To give a brief over
 
 Put together, all these components can be visualized in the infographic shown below:
 
-![Fig1: ELK Stack](../../images/post/1-fek-stack/img1.jpg)
+![Fig1: ELK Stack](https://datawrangler.mo.cloudinary.net/images/post/1-fek-stack/img1.jpg)
 
 ## Fluentd 
 
 The FEK Stack differs from ELK by the fact that there is no need for Logstash for transformation. Fluentd (also known as *td-agent*) can help in reading, transforming, and shipping the logs directly to the Logstash. These transformed and shipped logs can be visualized in Kibana same as the ELK Stack.
 
-![Fig2: FEK Stack](../../images/post/1-fek-stack/img2.jpg)
+![Fig2: FEK Stack](https://datawrangler.mo.cloudinary.net/images/post/1-fek-stack/img2.jpg)
 
 The fluentd agents can be installed based on the instructions given in this link (https://docs.fluentd.org/installation).
 Now that the fluentd agent has been installed, let's explore how the agent is able to transform and ship the corresponding logs. For this example, you can clone the following repository: https://github.com/datawrangl3r/logGenerator as:
