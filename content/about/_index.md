@@ -4,7 +4,7 @@ date: 2019-10-29T13:49:23+06:00
 draft: false
 
 # image
-image: "https://datawrangler.mo.cloudinary.net/images/logo.png"
+image: "https://datawrangler.mo.cloudinary.net/images/author.jpg"
 
 # meta description
 description: "Summary about the author"
