@@ -20,7 +20,7 @@ tags:
   - "Databases"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 Data Streaming processes help in transferring a huge amount of data without buffering in memory. This has laid a strong foundation for the data streaming and queuing applications/services of today such as Kafka, Pulsar, etc. In this article, we will be exploring how data streaming can be implemented over JDBC connectors in Java and how we can evade the memory exhaustion issues.
