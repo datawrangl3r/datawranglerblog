@@ -35,7 +35,7 @@ Simply put, these are message transportation systems that are higly performant a
 
 Apache Kafka consists of several key components that work together to provide a scalable and distributed streaming platform. 
 
-![Fig1: The Kafka Architecture](https://datawrangler.mo.cloudinary.net/images/post/18-Kafka/img1.png)
+![Fig1: The Kafka Architecture](https://datawrangler.mo.cloudinary.net/images/post/18-kafka/img1.png)
 
 The main components of Kafka are mentioned as follows:
 

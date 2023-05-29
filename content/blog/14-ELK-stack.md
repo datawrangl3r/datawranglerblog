@@ -12,7 +12,8 @@ description: "Hands-On Tutorial on the widely popular ELK stack"
 
 # taxonomies
 categories:
-  - "Elasticsearch"
+  - "Tutorial"
+
 tags:
   - "Elasticsearch"
   - "ELK"
