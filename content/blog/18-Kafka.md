@@ -159,7 +159,7 @@ Keep the ZooKeeper instance running while setting up and using Kafka.
 In a separate terminal or command prompt window, start the Kafka brokers by executing the following command:
 
 ```bash
-bin/kafka-server-start.sh config/server.properties
+$ bin/kafka-server-start.sh config/server.properties
 ```
 
 You can start multiple brokers if you want to set up a Kafka cluster. In such cases, you need to configure unique properties such as broker.id, listeners, and log.dirs for each broker.
@@ -169,7 +169,7 @@ You can start multiple brokers if you want to set up a Kafka cluster. In such ca
 Kafka uses topics to organize and categorize messages. You can create a topic using the following command:
 
 ```sh
-bin/kafka-topics.sh --create --topic <topic_name> --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+$ bin/kafka-topics.sh --create --topic <topic_name> --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 ```
 
 Adjust the `<topic_name>` as desired, and specify the appropriate bootstrap-server (Kafka broker) address, partitions, and replication factor.
@@ -181,13 +181,13 @@ To ensure that Kafka is running and the setup is correct, you can use various Ka
 Produce messages: 
 
 ```sh
-bin/kafka-console-producer.sh --topic <topic_name> --bootstrap-server localhost:9092
+$ bin/kafka-console-producer.sh --topic <topic_name> --bootstrap-server localhost:9092
 ```
 
 Consume messages: 
 
 ```sh
-bin/kafka-console-consumer.sh --topic <topic_name> --bootstrap-server localhost:9092 --from-beginning
+$ bin/kafka-console-consumer.sh --topic <topic_name> --bootstrap-server localhost:9092 --from-beginning
 ```
 
 These steps provide a basic setup of Kafka for local development and testing purposes. For production environments, additional configurations and considerations are necessary, such as securing the cluster, configuring replication, and setting up additional components like Kafka Connect or Kafka Streams.
