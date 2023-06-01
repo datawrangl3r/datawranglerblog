@@ -27,9 +27,9 @@ These distributed messaging/event streaming platform-systems facilitate the the 
 The practical applications include ability to build:
 
 * Near-real time data pipelines - E.g. Geolocation updates from mobile phones, Shipping orders, Order Deliveries
-* Large scale data pipelines where the batch jobs can be too expensive - E.g. Payment transactions, Sensor measurements from IoT devices or medical equipments
+* Large scale data pipelines where the batch jobs can be too expensive - E.g. Payment transactions, Sensor measurements from IoT devices or medical equipment.
 
-Simply put, these are message transportation systems that are higly performant and resilient. This post will help you understand the components of the ELK stack and will get you up and running to process logs on your local machine.  Kafka, being a stateful system gives the ability to read the stream at different positions and different speeds and replay the messages from the past (at least from the set expiry time).
+Simply put, these are message transportation systems that are highly performant and resilient. This post will help you understand the components of the ELK stack and will get you up and running to process logs on your local machine.  Kafka, being a stateful system gives the ability to read the stream at different positions and different speeds and replay the messages from the past (at least from the set expiry time).
 
 ## Components of Kafka
 
@@ -63,9 +63,9 @@ But, does it matter if the partition is randomly assigned?
 
 ### Brokers
 
-Event streaming platforms are multi-node distributed system containing multi-noded clusters. The nodes of the clusters are known as brokers. Atleast three nodes/brokers are required to make a perfectly functioning cluster. The data is randomly distributed and replicated across these brokers. 
+Event streaming platforms are multi-node distributed system containing multi-noded clusters. The nodes of the clusters are known as brokers. At least three nodes/brokers are required to make a perfectly functioning cluster. The data is randomly distributed and replicated across these brokers. 
 
-Like any other distributed system, connecting to a single broker (***Bootstrap Broker***) will give access to the entire cluster. Topics are universally assigned and distibuted across the brokers. However, the data distiribution across the number of brokers is decided based on the ***replication factor***. This brings the resilience into the picture, making sure that: If a broker is down, another broker can serve the data.
+Like any other distributed system, connecting to a single broker (***Bootstrap Broker***) will give access to the entire cluster. Topics are universally assigned and distributed across the brokers. However, the data distribution across the number of brokers is decided based on the ***replication factor***. This brings the resilience into the picture, making sure that: If a broker is down, another broker can serve the data.
 
 > ***Replication Golden Rule:*** Even though multiple brokers can have the copy of the data, only one of the broker can be a leader for a given partition. The other brokers will synchronize and replicate the data. If the leader goes down, one of the followers will get elected to become the leader.
 
@@ -84,14 +84,14 @@ Applications known as **Producers** writes the data to topics. They know to whic
 Producers can be configured whether to receive the acknowledgement for data writes. The following are the possible send modes, one of them can be configured for the producers.
 
 | Send Mode | Description | Data Loss | Use-case |
-| --- | --- | --- |
+|------------|----------|-----------|-----------|
 | **acks=0** | Producer won't wait for acknowledgement - very dangerous but no lag in performance | Possible data loss | Suitable for high volume data transfers |
 | **acks=1** | Producer will wait for the leader broker to acknowledge | limited data loss | Suitable for data streams related (Widely Used) |
 | **acks=all** | Leader and all other replicas get the data and acknowledge | no data loss but poor performance | Suitable for secure and persisted storages |
 
 ### Message Keys
 
-If the ordering of the message matters, the message keys are mandatory. For example, consider an ecommerce or a delivery app in which the key can be as order_id's. There are different event types for the processing of an order such as: "ordered", "shipped", "in-transit" and "delivered" that is highly crucial to be processed in the same sequence and this is done by assigning to them to the same message key.
+If the ordering of the message matters, the message keys are mandatory. For example, consider an ecommerce or a delivery app in which the key can be as `order_id`s. There are different event types for the processing of an order such as: "ordered", "shipped", "in-transit" and "delivered" that is highly crucial to be processed in the same sequence and this is done by assigning to them to the same message key.
 
 Message keys can be a hash, number, string, number, etc. If message key is null, data is sent round robin (i.e. in case of two brokers - first message is sent to broker 1, second message to broker 2, third message to broker 1, etc.).
 
@@ -139,7 +139,7 @@ Navigate to the Kafka installation directory and locate the config subdirectory.
 Modify the configuration files as per your requirements:
 
 * `config/server.properties`: This file contains the configuration for Kafka brokers. You may need to update properties such as `broker.id`, `listeners`, `log.dirs`, and `zookeeper.connect`.
-* `config/zookeeper.properties`: This file contains the configuration for the ZooKeeper server used by Kafka. Update properties such as dataDir and clientPort if necessary.
+* `config/zookeeper.properties`: This file contains the configuration for the ZooKeeper server used by Kafka. Update properties such as `dataDir` and `clientPort` if necessary.
 
 **Starting the Necessary Components**
 
