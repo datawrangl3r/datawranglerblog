@@ -1,7 +1,7 @@
 ---
 title: 'Event Streaming Platforms: Kafka - A Hands-On Tutorial'
 date: 2021-12-18T12:01:00.001-08:00
-draft: falses
+draft: false
 aliases: [ "/2022/12/18-kafka.html" ]
 
 # post thumb

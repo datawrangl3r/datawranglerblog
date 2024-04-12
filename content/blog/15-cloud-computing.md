@@ -18,7 +18,7 @@ tags:
   - "BI"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 The advent of the era of cloud computing in the past 10 years has made data storage and processing, leap to a whole different dimension. Previously, the organizations were only looking for ways to store historical data efficiently and safely in the cloud. Now, the perspective has changed. It isn’t just about the storage anymore but the organizations need to make better decisions based on the data. 
