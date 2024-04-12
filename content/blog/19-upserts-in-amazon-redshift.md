@@ -1,8 +1,8 @@
 ---
-title: 'Upserts in Amazon Redshift - A Tutorial'
+title: 'Upserts in Amazon Redshift - A Hands-On Tutorial'
 date: 2024-04-13T00:01:00.001-08:00
 draft: false
-aliases: [ "/2023/04/13-upsers-in-amazon-redshift.html" ]
+aliases: [ "/2024/04/13-upsers-in-amazon-redshift.html" ]
 
 # post thumb
 image: "https://datawrangler.mo.cloudinary.net/images/featured-post/post19.jpg"
